@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M9L2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Tech Solutions</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <div class="navbar-nav">
+                <button class="btn btn-primary mx-2">Home</button>
+                <button class="btn btn-primary mx-2">About Us</button>
+                <button class="btn btn-primary mx-2">Contact Us</button>
+            </div>
+        </div>
+    </div>
+</nav>
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <h1 class="mt-4 text-center">Tech Solutions Services</h1>
+        </div>
+    </div>
+    <!-- Code Debugger -->
+    <div class="container card mt-5 p-2">
+        <div class="row align-items-center text-center justify-content-center"> 
+            <div class="col-auto"> 
+                <img src="https://i.pinimg.com/564x/1f/87/b2/1f87b29a2df46100a75aa86b170a21cb.jpg" alt="code_debugger_img" style="width: 100px; height: 100px;" class="rounded-circle">
+            </div>
+            <div class="col-auto"> 
+                <h3>Code Debugger</h3>
+            </div>
+        </div>
+        <div class="row text-center mx-auto mt-3">
+            <div class="col-12 col-md-10"> 
+                <p>A simple tool to allow AI to encounter and provide feedback on coding projects. A virtual assistant helping maintain, optimize, and auto complete code.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Solutions Ticket System -->
+    <div class="container card mt-5 p-2">
+        <div class="row align-items-center text-center justify-content-center">
+            <div class="col-auto">
+                <img src="https://i.pinimg.com/736x/06/28/75/0628759505c0bbdd01f6e87173e33241.jpg" alt="code_debugger_img" style="width: 100px; height: 100px;" class="rounded-circle">
+            </div>
+            <div class="col-auto">
+                <h3>Solutions Ticket System</h3>
+            </div>
+        </div>
+        <div class="row text-center mx-auto mt-3">
+            <div class="col-12 col-md-10">
+                <p>A system developed by the Tech Solutions corporation that allows companies to manage, control, and maintain a backlog of tickets to provide a structured format to developers workday</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Solutions Management Firm -->
+    <div class="container card p-2 mt-5">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-auto">
+                <img src="https://i.pinimg.com/564x/71/81/24/71812425e1bd1bf168f2482d79b849e0.jpg" alt="code_debugger_img" style="width: 100px; height: 100px;" class="rounded-circle">
+            </div>
+            <div class="col-auto">
+                <h3>Solutions Management Firm</h3>
+            </div>
+        </div>
+        <div class="row text-center mx-auto mt-3">
+            <div class="col-12 col-md-10">
+                <p>A sub division of the Tech Solutions corporation that works with your companies management system to fix and organize management teams. A 16-Week program that provides training, solutions, and organized plans to improve your company.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="container mt-5 d-flex justify-content-center">
+        <form class="mx-auto" style="max-width: 500px;">
+            <h3 class="text-center">Contact Us!</h3>
+            <div class="mb-3 text-center">
+                <label for="name" class="form-label"><strong>Name</strong></label>
+                <input type="text" class="form-control" name="name" id="name" placeholder="John Doe" required>
+            </div>
+            <div class="mb-3 text-center">
+                <label for="email" class="form-label"><strong>Email</strong></label>
+                <input type="email" class="form-control" name="email" id="email" placeholder="example@email.com" required>
+            </div>
+            <div class="mb-3 text-center">
+                <label for="info" class="form-label"><strong>Reason For Contact</strong></label>
+                <textarea class="form-control" name="info" id="info" style="height: 200px;" rows="6" placeholder="Enter a description for contact..." required></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="serviceHeader" class="form-label"><strong>Select Your Service</strong></label>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="service" id="service1">
+                    <label class="form-check-label" for="service1">Code Debugger</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="service" id="service2">
+                    <label class="form-check-label" for="service2">Solutions Ticket System</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="service" id="service3">
+                    <label class="form-check-label" for="service3">Solutions Management Firm</label>
+                </div>
+                <button type="submit" class="btn btn-primary mt-3 mx-auto d-block">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
